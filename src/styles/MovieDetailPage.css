@@ -1,0 +1,56 @@
+.movie-detail {
+  padding: 20px;
+}
+
+.movie-poster {
+  text-align: center;
+}
+
+.movie-poster img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.movie-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #f1c40f;
+  font-weight: bold;
+  text-align: left;
+}
+
+.movie-attributes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.attribute strong {
+  display: block;
+  color: #f1c40f;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.movie-plot,
+.movie-actors {
+  margin-bottom: 10px;
+}
+
+.movie-plot strong,
+.movie-actors strong {
+  color: #f1c40f;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.movie-plot p,
+.movie-actors p {
+  font-size: 1.2em;
+  text-align: left;
+}
